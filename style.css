@@ -1,0 +1,747 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'popins' "sans-serif";
+  }
+ .ahan img {
+    width: 1100px;
+    height: px;
+    float: right;
+    display: inline-block;
+     margin-top: -310px;
+  }
+
+  .banner-card {
+      position: relative;
+  }
+
+  .Banner-card img {
+    width: 1580px;
+     height: 700px;
+  }
+
+  .banner-text {
+      position: absolute;
+      top: 0;
+      margin-top: 490px;
+      margin-left: 190px;
+      color: #fff;
+      padding: 10px;
+  }
+
+  .btn-box a{
+    text-decoration: none;
+    color: black;
+}
+.btn-box{
+ 
+    padding: 12px 28px;
+    margin-top: 150px;
+    border-radius: 40px;
+    border: 2px solid black;
+    margin-top: 90px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slidebottom 1s ease forwards;
+    animation-delay: 0.1s; 
+      opacity: 0;
+    animation: slidebottom 1s ease forwards;
+    animation-delay: 0.3s;
+    box-shadow:  0 0 5px #0ef;
+    box-shadow: 0 0 25px #0ef;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan;
+    box-shadow: 0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+  @keyframes slidebottom {
+      0% {
+          transform: translateY(-100px);
+          opacity: 0;
+      }
+
+      100% {
+          transform: translateY(20px);
+          opacity: 1;
+      }
+  }
+
+  .logopr {
+      margin-right: 1000px;
+  }
+
+  .logopr a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      font-family: 'Poppins', sans-serif;
+      opacity: 0;
+      animation: slideRight 1s ease forwards;
+      animation-delay: 0.5s;
+  }
+
+  @keyframes slideRight {
+      100% {
+          transform: translateX(-100px);
+          opacity: 0;
+      }
+
+      100% {
+          transform: translateX(-100px);
+          opacity: 1;
+      }
+  }
+
+  .logopr a:hover {
+      color: black;
+      background-color: blue;
+      background: transparent;
+  }
+
+  .logohr img {
+      transition: 0.9s;
+      display: inline-block;
+  }
+
+  .logohr img:hover {
+      transform: rotate(360deg);
+  }
+
+
+  .navbar-nav {
+      margin: 10px;
+      padding: 20px;
+      width: 300px !important;
+      float: right;
+      background-color: rgb(0, 0, 0);
+      padding: 10px 30px;
+      /* height: 100px; */
+  }
+
+  .nav-link {
+      padding: 10px;
+      margin: 13px;
+  }
+
+  .nav-link:hover {
+      background-color: blue;
+  }
+
+  .lll {
+      display: flex;
+      width: 350px;
+  }
+
+  .lll a {
+      margin-left: 20px;
+      padding: 5px;
+      gap: 2px;
+      font-weight: 600;
+      font-size: 15px;
+
+  }
+
+  .l img {
+      transition: 1s;
+      display: inline-block;
+  }
+
+  .l img:hover {
+      transform: rotate(10deg);
+      animation: slidebottom;
+      animation-delay: 0.5s;
+      animation-duration: 1s;
+  }
+
+  @keyframes slidebottom {
+      100% {
+          transform: translateY(-100px);
+          opacity: 0;
+      }
+
+      100% {
+          transform: translateY(-100px);
+          opacity: 1;
+      }
+  }
+
+  .video img {
+      width: 100%;
+  }
+
+  .container {
+      margin-left: -350px;
+      width: 100px;
+  }
+
+  .videonn img {
+      width: 100%;
+      height: 600px;
+      margin-top: -6px;
+  }
+  .audio img{
+    margin-left: 8px;
+     margin-top:-1000px; 
+     height: 308px;
+     display: inline-block ;
+}
+  .pepsi {
+      width: 100%;
+      height: 600px;
+      background-color: blue;
+  }
+  .audio iframe{
+     margin-left: 310px;
+     margin-top: 800px;
+     height: 308px;
+     width: 409px;
+}
+  .pepsi h1 {
+      font-size: 60px;
+      color: white;
+      font-weight: 800;
+      margin-left: 120px;
+      padding: 50px;
+  }
+  .in img{
+    width:1580px;
+     height:600px;
+    position:relative;
+     display: inline-block;     
+}
+  .pepsi h2 {
+      font-size: 60px;
+      color: white;
+      font-weight: 800;
+      margin-left: 160px;
+      margin-top: -48px;
+  }
+
+  .pepsi h3 {
+      font-size: 60px;
+      color: white;
+      font-weight: 800;
+      margin-left: 160px;
+      /* margin-top: -48px; */
+  }
+
+  .opawais img{
+      margin-left: 850px;
+      width: 600;
+      display: inline-block;
+      margin-top: -200px;
+  }
+
+  .pepsi p {
+      color: white;
+      font-size: 18px;
+      margin-left: 160px;
+      margin-top: -130px;
+  }
+
+  .btn-bos {
+      /* display: inline-block; */
+      padding: 12px 28px;
+      /* background-color: #0ef; */
+      border-radius: 40px;
+      border: 2px solid black;
+      font-size: 16px;
+      color: black;
+      margin-left: 150px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      font-weight: 600;
+      opacity: 0;
+      animation: slidebottom 1s ease forwards;
+      animation-delay: 0.1s;
+      opacity: 0;
+      animation: slidebottom 1s ease forwards;
+      animation-delay: 0.3s;
+      box-shadow: 0 0 5px rgb(244, 244, 244);
+      box-shadow: 0 0 25px rgb(255, 255, 255);
+  }
+
+  .btn-bos:hover {
+      box-shadow: 20 20 5px rgb(255, 255, 255);
+      box-shadow: 0 0 25px rgb(255, 255, 255), 0 0 50pc rgb(255, 255, 255),
+          0 0 100px rgb(255, 255, 255), 0 0 200px rgb(255, 255, 255)
+  }
+
+  @keyframes slidebottom {
+      0% {
+          transform: translateY(-100px);
+          opacity: 0;
+      }
+
+      100% {
+          transform: translateY(20px);
+          opacity: 1;
+      }
+  }
+
+  .btn-bos a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .faq h1 {
+      color: blue;
+      text-align: center;
+      align-items: center;
+      font-weight: 800;
+  }
+
+  .row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .col {
+      flex-basis: 50%;
+  }
+  .inm img{
+  display: inline-block;
+   width: 483px;
+}
+  .l img {
+      display: inline-block;
+      margin-left: 180px;
+      width: 300px;
+  }
+
+  .l img:hover {
+      transition: 0.5s;
+  }
+
+  .o img {
+      display: inline-block;
+      margin-left: 485px;
+      margin-top: -320px;
+      width: 300px;
+  }
+.anas img{
+    width: 483px;
+     height: 270px;
+}
+.container video{
+}
+  .p img {
+      display: inline-block;
+      margin-left: 790px;
+      margin-top: -370px;
+      width: 300px;
+  }
+
+  .awaiskhan img {
+      display: inline-block;
+      margin-top: -419px;
+      width: 300px;
+      margin-left: 1101px;
+  }
+
+  .lrimg {
+      display: inline-block;
+      margin-left: 990px;
+      width: 300px;
+  }
+
+  .black {
+      background-color: black;
+      width: 1580px;
+      height: 400px;
+  }
+  .er{
+    width: 1260px;
+  }
+.video iframe{
+        margin-top: -290px;
+     margin-left: 310px;
+      width: 480px;
+       height: 310px;
+       display: inline-block;
+}
+
+  .er img {
+      width: 200px;
+      height: 200px;
+      margin-top: 90px;
+      margin-left: 90px;
+      transition: 0.9s;
+      display: inline-block;
+  }
+
+  .er img:hover {
+      transform: rotate(360deg);
+  }
+
+  .all {
+      font-size: 25px;
+      color: white;
+      margin-left: 80px;
+  }
+
+  .er img:hover {
+      transform: ;
+  }
+
+  .cv img {
+      width: 140px;
+      margin-left: 90px;
+
+  }
+
+  .cv {
+      margin-top: 35px;
+  }
+
+  .iop {
+      color: white;
+      margin-top: -260px;
+      margin-left: 550px;
+      font-size: 25px;
+  }
+
+  .poi {
+      color: white;
+      margin-top: -340px;
+      margin-left: 840px;
+      font-size: 25px;
+  }
+
+  .connt {
+      margin-top: -339px;
+      margin-left: 1180px;
+      color: white;
+      font-size: 25px;
+  }
+
+  .ime img {
+      height: 40px;
+      width: 40px;
+      margin-top: 15px;
+      margin-left: -10px;
+      display: inline-block;
+  }
+
+  .me {
+      margin-top: -30px;
+  }
+
+  .me img {
+      height: 38px;
+      width: 30px;
+      margin-top: -25px;
+      margin-left: 45px;
+  }
+
+  .nq img {
+      height: 45px;
+      width: 30px;
+      margin-top: -50px;
+      margin-left: 100px;
+  }
+
+  .nq {
+      margin-top: -22px;
+  }
+
+  .bb img {
+      height: 50px;
+      width: 30px;
+      margin-top: -70px;
+      margin-left: 155px;
+  }
+
+  .bb {
+      margin-top: -30px;
+  }
+  .navbarbg-primary{
+    height: 80px;
+  }
+ @media (max-width:480px){
+ .collapse.navbar-collapse{
+  /* width: 1170px; */
+ }
+ .navbar {
+    height: 80px;
+    width: 1260px;
+  }
+ .ahan img{
+    width:480px;
+    height: 599px;
+    margin-top: 2px;
+    margin-left: -1370px;
+    display: inline-block;
+}
+ .btn-box{
+    margin-left: -50px;
+}
+.video iframe{
+    margin-left: -790px;
+    margin-top: 310px;
+    width: 1260px;
+   display: inline-block;
+}
+.audio iframe{
+    margin-top: -270px;
+    height: 400px;
+    width: 480px;
+}
+.in img{
+    width: 1170px;
+}
+.inm img{
+    width: 1260px;
+}
+.Banner-card img {
+    width: 1262px;
+  }
+  .in img{
+    width: 1262px;
+  }
+  .anas img{
+    width: 1260px;
+     height: 570px;
+}
+.video img{
+    width: 1260px;
+}
+.container video{
+width: 1260px;
+margin-left: 335px;
+}
+.videonn img{
+    width: 1260px;
+}
+.pepsi h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    padding: 50px;
+}
+.pepsi h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-left: 65px;
+    margin-top: -48px;
+}
+.pepsi h3 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-left: 60px;
+}
+.pepsi p {
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: -140px;
+}
+.pepsi{
+    width: 1260px;
+    height: 1000px;
+}
+.pepsi p {
+    color: white;
+    font-size: 22px;
+    margin-left: 60px;
+    margin-top: -700px;
+}
+.btn-bos {
+    font-size: 16px;
+    margin-left: 48px;
+}
+.opawais img {
+    width: 1000px;
+    margin-left: 130px ;
+    margin-top: 200px;
+    display: inline-block;
+}
+.faq h1 {
+    color: blue;
+    text-align: center;
+    align-items: center;
+    font-weight: 800;
+    margin-left: 534px;
+}
+.l img {
+    display: inline-block;
+    margin-left: 90px;
+    width: 310px;
+    margin-left:470px ;
+}
+.p img {
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 570px;
+    width: 310px;
+}
+.o img{
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 470px;
+    width: 310px;
+}
+.awaiskhan img{
+    display: inline-block;
+    margin-left: 470px;
+}
+.black{
+    background-color: black;
+    width: 1260px;
+    height: 1100px;
+}
+.iop{
+    margin-left: 115px;
+    margin-top: 21px;
+    font-size: 35px;
+}
+.poi{
+    margin-left: 500px;
+    font-size: 35px;
+    margin-top: -466px;
+
+}
+.connt{
+    margin-left: 134px;
+    margin-top: 60px;
+} */
+ /* .collapse.navbar-collapse{
+    margin-left: 200px;
+ }
+ .btn-box{
+    margin-left: -150px;
+
+}
+.in img{
+    width: 500px;
+}
+.khan img {
+    width: 0px;
+    height: 300px;
+    margin-top: 300px;
+
+}
+.inm img{
+    display: inline-block;
+     width: 500px;
+     margin-top: 600px;
+  }
+  .container video{
+    width: 838px;
+}
+.anas img{
+    width: 500px;
+     height: 270px;
+}
+.video iframe{
+    margin-left: -790px;
+    margin-top: 310px;
+  width: 500px;
+   height: 310px;
+   display: inline-block;
+}
+.audio iframe{
+    margin-top: -270px;
+    height: 308px;
+    width: 500px;
+}
+.pepsi h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    padding: 50px;
+}
+.pepsi h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-left: 65px;
+    margin-top: -48px;
+}
+.pepsi h3 {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin-left: 60px;
+
+}
+.pepsi p {
+    color: white;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: -460px;
+}
+.btn-bos {
+    font-size: 16px;
+    margin-left: 50px;
+}
+.l img {
+    display: inline-block;
+    margin-left: 100px;
+    width: 300px;
+}
+.p img {
+    display: inline-block;
+    margin-left: 790px;
+    margin-top: 370px;
+    width: 300px;
+}
+.pepsi {
+    width: 100%;
+    height: 900px;
+    background-color: blue;
+}
+.opawais img {
+    width: 400px;
+    margin-left: 60px ;
+    margin-top: 360px;
+    display: inline-block;
+}
+.awaiskhan img{
+    display: inline-block;
+    margin-top: -85px;
+    width: 300px;
+}
+.p img{
+    display: inline-block;
+    margin-left: -220px;
+    width: 300px;
+}
+.o img{
+    display: inline-block;
+    margin-top: 19px;
+    margin-left: 100px;
+    width: 300px;
+}
+.black{
+    background-color: black;
+    width: 500px;
+    height: 1200px;
+}
+.iop{
+   
+    margin-left: 115px;
+    margin-top: 21px;
+}
+.poi{
+    margin-left: 126px;
+    margin-top: 42px;
+}
+.connt{
+    margin-left: 134px;
+    margin-top: 60px;
+} */
+ }
